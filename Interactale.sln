@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale", "Interactale\Interactale.csproj", "{E30FD31B-C37F-4BB2-9326-89822E2ABB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Tests", "Interactale.Tests\Interactale.Tests.csproj", "{5EDC5BD8-D458-4EDF-9671-206FF4300056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E1C685CB-C8ED-43D9-80FD-200661EE1991}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C0E7E188-4C64-497F-A99C-089553A756B7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Interactale-WAWS-dev.json = PublishScripts\Configurations\Interactale-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E30FD31B-C37F-4BB2-9326-89822E2ABB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30FD31B-C37F-4BB2-9326-89822E2ABB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30FD31B-C37F-4BB2-9326-89822E2ABB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30FD31B-C37F-4BB2-9326-89822E2ABB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0E7E188-4C64-497F-A99C-089553A756B7} = {E1C685CB-C8ED-43D9-80FD-200661EE1991}
+	EndGlobalSection
+EndGlobal
