@@ -18,6 +18,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 		PublishScripts\Configurations\Interactale-WAWS-dev.json = PublishScripts\Configurations\Interactale-WAWS-dev.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Logging", "Interactale.Logging\Interactale.Logging.csproj", "{D4196543-CE17-401F-8D69-A927FE41FC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Domain", "Interactale.Domain\Interactale.Domain.csproj", "{3B861848-29F5-45B1-8003-6B9E1D4A4E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Repository", "Interactale.Repository\Interactale.Repository.csproj", "{844A765A-5CF9-4A41-9F14-3C039D94097F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Domain.Maps", "Interactale.Domain.Maps\Interactale.Domain.Maps.csproj", "{95307F96-95E0-4D5D-870A-CAF7F7339706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactale.Migrator", "Interactale.Migrator\Interactale.Migrator.csproj", "{12498040-9253-4C8B-B445-9A6203F37DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +42,26 @@ Global
 		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDC5BD8-D458-4EDF-9671-206FF4300056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4196543-CE17-401F-8D69-A927FE41FC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4196543-CE17-401F-8D69-A927FE41FC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4196543-CE17-401F-8D69-A927FE41FC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4196543-CE17-401F-8D69-A927FE41FC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B861848-29F5-45B1-8003-6B9E1D4A4E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B861848-29F5-45B1-8003-6B9E1D4A4E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B861848-29F5-45B1-8003-6B9E1D4A4E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B861848-29F5-45B1-8003-6B9E1D4A4E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844A765A-5CF9-4A41-9F14-3C039D94097F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844A765A-5CF9-4A41-9F14-3C039D94097F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844A765A-5CF9-4A41-9F14-3C039D94097F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844A765A-5CF9-4A41-9F14-3C039D94097F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95307F96-95E0-4D5D-870A-CAF7F7339706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95307F96-95E0-4D5D-870A-CAF7F7339706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95307F96-95E0-4D5D-870A-CAF7F7339706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95307F96-95E0-4D5D-870A-CAF7F7339706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12498040-9253-4C8B-B445-9A6203F37DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12498040-9253-4C8B-B445-9A6203F37DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12498040-9253-4C8B-B445-9A6203F37DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12498040-9253-4C8B-B445-9A6203F37DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
